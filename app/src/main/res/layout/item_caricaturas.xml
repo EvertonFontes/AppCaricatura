@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="50dp"
+    android:layout_margin="10dp"
+    android:layout_marginBottom="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/image_caricatura"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/foto1"
+            android:scaleType="centerCrop"
+            android:contentDescription="foto de caricatura"/>
+
+        <TextView
+            android:id="@+id/txt_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_toRightOf="@+id/image_caricatura"
+            android:text="Nome:"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_idade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_toRightOf="@+id/image_caricatura"
+            android:text="Idade:"
+            android:layout_marginTop="90dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_profissao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:layout_toRightOf="@+id/image_caricatura"
+            android:text="Profissão:"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
